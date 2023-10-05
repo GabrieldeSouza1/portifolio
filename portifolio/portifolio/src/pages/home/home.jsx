@@ -9,7 +9,7 @@ export default function Home() {
   const [text, setText] = useState('');
   const phrase = 'Desenvolvedor FullStack e Estudante de Engenharia de Software';
   const delay = 80; // Delay entre cada caractere em milissegundos
-  var width = 1000;
+  var width = window.screen.width;
   useEffect(() => {
     let currentCharIndex = 0;
 
