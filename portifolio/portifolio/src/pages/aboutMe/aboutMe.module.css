@@ -1,0 +1,96 @@
+.divSobre,
+.teste,
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.teste {
+    flex-direction: column;
+    align-items: center;
+}
+
+.divSobre {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.divSobre>* {
+    justify-content: center;
+    text-align: justify;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.tecIcon {
+    font-size: 40px;
+
+}
+
+.divIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divIcon:hover .tecIcon {
+    font-size: 60px;
+    /* Tamanho do ícone ao passar o mouse */
+    background: radial-gradient(circle, blue 10%, transparent 60%);
+}
+
+.divIcon:hover>span {
+    font-size: 20px;
+    /* Tamanho do ícone ao passar o mouse */
+}
+
+.divTec {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.divTec>* {
+    display: flex;
+    width: 15vw;
+}
+
+.h1 {
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 40px;
+}
+
+
+@media (max-width: 600px) {
+
+    .divSobre,
+    .teste,
+    .main {
+        height: 200vh;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .divTec>* {
+        display: flex;
+        width: 50vw;
+    }
+
+
+    .divSobre>* {
+        margin: 10px;
+    }
+}

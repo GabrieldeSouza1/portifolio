@@ -1,0 +1,53 @@
+.body {
+    position: fixed;
+    bottom: 5rem;
+    right: 3rem;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.body>span {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.body>span>a {
+    width: 1.7rem;
+    height: 1.7rem;
+    overflow-y: hidden;
+}
+
+.email {
+    background-color: #ff4438;
+}
+
+.whatsapp {
+    background-color: #25d366;
+}
+
+/* phones */
+@media (max-width: 40em) {
+    .body {
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .body>span {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 100%;
+    }
+
+    .body>span a,
+    .body>span svg {
+        width: 1.5rem;
+    }
+}

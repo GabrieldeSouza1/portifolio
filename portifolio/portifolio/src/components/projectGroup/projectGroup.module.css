@@ -1,0 +1,31 @@
+.projectGroupContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+.line{
+    display: flex;
+}
+.line>*{
+    margin: 30px;
+}
+
+@media screen and (max-width: 1000px){
+    .line{
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .projectGroupContainer{
+        height: 100%;
+    }
+    .line>*{
+        margin: 10px;
+    }
+    .projectGroupContainer{
+        margin-top: 50px;
+    }
+}
