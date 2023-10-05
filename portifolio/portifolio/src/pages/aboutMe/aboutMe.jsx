@@ -5,7 +5,6 @@ import { SiFlutter, SiNextdotjs, SiMongodb, SiDotnet, SiMicrosoftsqlserver } fro
 import { GrMysql } from 'react-icons/gr'
 
 export default function AboutMe() {
-
     return (
         <>
             <div className={Styles.main}>

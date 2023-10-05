@@ -12,7 +12,8 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-fullpage": "^0.1.19"
+    "react-fullpage": "^0.1.19",
+    "react-responsive": "^9.0.2"
   },
   "devDependencies": {
     "eslint": "latest",
