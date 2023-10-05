@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-// CSS
 import styles from './projectCard.module.css'
 export default function ProjectCard(props) {
 

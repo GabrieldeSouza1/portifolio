@@ -5,7 +5,7 @@ import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 import Menu from "@/components/menu/menu"
 import { useState, useEffect } from "react"
 export default function Header() {
-    var width = window.screen.width;
+    var width = 1000;
     return (
         <div className={Styles.header}>
             <div className={Styles.containerLogo}>
