@@ -77,10 +77,11 @@
     .divSobre,
     .teste,
     .main {
-        height: 200vh;
+
     }
 
     .main {
+
         flex-direction: column;
     }
 
