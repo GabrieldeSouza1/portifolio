@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ProjectCard from '../projectCard/ProjectCard'
+import ProjectCard from '../projectCard/projectCard'
 
 import Styles from './projectGroup.module.css'
 
