@@ -2,7 +2,6 @@
 .teste,
 .main {
     width: 100vw;
-    height: 100vh;
     display: flex;
 }
 
@@ -68,17 +67,12 @@
     font-size: 30px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    height: 40px;
 }
 
 
 @media (max-width: 600px) {
 
-    .divSobre,
-    .teste,
-    .main {
 
-    }
 
     .main {
 
